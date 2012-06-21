@@ -15,6 +15,7 @@ $config['error/common.tpl'] = 'instances/common/templates/error/common.tpl';
 $config['home/index.tpl'] = 'instances/common/templates/home/index.tpl';
 $config['home/pagination.tpl'] = 'instances/common/templates/home/pagination.tpl';
 $config['i18n/status.tpl'] = 'instances/common/templates/i18n/status.tpl';
+$config['layout/basic.tpl'] = 'instances/common/templates/layout/basic.tpl';
 $config['locales/index.tpl'] = 'instances/common/templates/locales/index.tpl';
 $config['manager/findi18n.tpl'] = 'instances/common/templates/manager/findi18n.tpl';
 $config['manager/templates.tpl'] = 'instances/common/templates/manager/templates.tpl';

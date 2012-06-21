@@ -11,14 +11,6 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    {literal}
-	<style type="text/css">
-      body {
-        padding-top: 60px;
-      }
-    </style>
-	{/literal}
     <!-- Le fav and touch icons -->
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">

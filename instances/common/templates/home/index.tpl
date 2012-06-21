@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-{ $modules.head}
-  <body>
+{extends file="layout/basic.tpl"|custom_tpl}
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <a class="brand" href="#">Sifo</a>
-          <ul class="nav">
-			<li class="active"><a href="">Home</a></li>
-			<li><a href="">Section 1</a></li>
-			<li><a href="">Section 2</a></li>
-			<li><a href="">Section 3</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
+{block name="body"}
 
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
@@ -45,11 +28,4 @@
         </div>
       </div>
 
-      <footer>
-        <p>Powered by Sifo, 2009-{$smarty.now|date_format:"%Y"}</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-  </body>
-</html>
+{/block}

@@ -1,6 +1,13 @@
-<div id="hd" role="banner">
-	<div class="header">
-		<h1>SEO Framework</h1>
-		<p>SIFO for the friendah</p>
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="#">Sifo</a>
+			<ul class="nav">
+				<li class="active"><a href="{$url.base}">Home</a></li>
+				<li><a href="{$url.translate}">Translate</a></li>
+				<li><a href="">Section 2</a></li>
+				<li><a href="">Section 3</a></li>
+			</ul>
+		</div>
 	</div>
 </div>

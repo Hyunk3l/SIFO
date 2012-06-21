@@ -98,5 +98,9 @@ $config['sifo.local'] = array(
 	//'libraries_profile' => 'bleeding_edge' // What profile of libraries should be used.
 );
 
+// Catch-all rules.
+$config[$_SERVER['HTTP_HOST']] = $config['sifo.local'];
+$config[$_SERVER['HTTP_HOST']]['static_host'] = 'http://static.' . $_SERVER['HTTP_HOST'];
+
 $config['unit.test'] = $config['sifo.local'];
 $config['unit.test']['instance'] = 'common';
